@@ -5,7 +5,7 @@ name: Python application
 defaults:
   run:
     shell: bash
-    working-directory: app
+    working-directory: stocks_products
 on:
   push:
     branches: [ main, master ]
